@@ -1,0 +1,12 @@
+{
+  "name": "PenguEats Python Environment",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "postCreateCommand": "echo 'Environment ready. Run: python pengueats.py'",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python"
+      ]
+    }
+  }
+}
